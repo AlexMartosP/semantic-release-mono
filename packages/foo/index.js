@@ -14,6 +14,6 @@ export function scary() {
   return "boo";
 }
 
-export function scary() {
+export function scary2() {
   return "boo";
 }
