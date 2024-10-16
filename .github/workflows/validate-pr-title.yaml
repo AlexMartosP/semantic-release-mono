@@ -1,0 +1,23 @@
+name: Validate PR title
+
+on:
+  pull_request:
+    types: [edited, opened]
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout validation file
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/validate-pr-title.ts
+          sparse-checkout-cone-mode: false
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Install tsx
+        run: npm install -g tsx
+      - name: Run validation scripts
+        run: tsx ./scripts/validate-pr-title.ts '${{ github.event.pull_request.title }}'

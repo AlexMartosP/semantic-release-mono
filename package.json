@@ -1,0 +1,19 @@
+{
+  "name": "semantic_release_mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx ./scripts/validate-pr-title.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^24.1.2",
+    "tsx": "^4.19.1"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.5"
+  }
+}
