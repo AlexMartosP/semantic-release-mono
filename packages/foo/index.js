@@ -13,3 +13,7 @@ export function baz() {
 export function scary() {
   return "boo";
 }
+
+export function scary2() {
+  return "boo";
+}
