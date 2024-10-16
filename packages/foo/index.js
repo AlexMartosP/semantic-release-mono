@@ -14,6 +14,6 @@ export function extraScary() {
   return "baaboo";
 }
 
-export function bazo() {
+export function bazoka() {
   return "bazooka";
 }
