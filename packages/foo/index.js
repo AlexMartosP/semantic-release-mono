@@ -5,3 +5,7 @@ export function foo() {
 export function bar() {
   return "bar";
 }
+
+export function baz() {
+  return "baz";
+}
