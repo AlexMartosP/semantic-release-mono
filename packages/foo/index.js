@@ -9,3 +9,7 @@ export function bar() {
 export function baz() {
   return "bazooka";
 }
+
+export function extraScary() {
+  return "baaboo";
+}
