@@ -7,5 +7,5 @@ export function bar() {
 }
 
 export function baz() {
-  return "baz";
+  return "bazooka";
 }
