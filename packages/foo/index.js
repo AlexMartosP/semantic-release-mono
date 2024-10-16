@@ -10,7 +10,7 @@ export function baz() {
   return "bazooka";
 }
 
-export function extraScary() {
+export function extraScary2() {
   return "baaboo";
 }
 
