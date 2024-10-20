@@ -1,0 +1,13 @@
+{
+  "name": "semantic_release_mono",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alexander Martos Paschoal <alexander.martos@minut.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/foo",
+    "packages/bar",
+    "packages/internal"
+  ]
+}

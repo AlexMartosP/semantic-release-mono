@@ -1,0 +1,16 @@
+{
+  "name": "semantic_release_mono_foo",
+  "version": "1.0.0",
+  "description": "Foo package",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "generate-dad-jokes": "^1.0.9",
+    "semantic_release_mono_internal": "1.0.0"
+  }
+}
